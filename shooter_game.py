@@ -63,6 +63,7 @@ win = font.render('YOU WIN!', True, (255, 255, 255))
 lose = font.render('YOU LOSE!', True, (255, 255, 255))
 bullets = sprite.Group()
 
+print("Скачивайте игру и делайте файл .exe!")
 
 while flag:
     window.blit(galaxy, (0, 0))
